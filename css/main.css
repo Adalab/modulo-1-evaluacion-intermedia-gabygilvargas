@@ -1,6 +1,7 @@
 :root {
 }
 html {
+  box-sizing: border-box;
 }
 
 body {
@@ -8,16 +9,32 @@ body {
 }
 
 .header {
+
+  width: 100%;
+  position: relative;
+  top: 10px;
+  right: 50px;
+  left: 0;
+  transform: translateY( 50);
+  
+  background-color:white);
+  
 }
 .header-logo {
   width: 150px;
+  padding
 }
 
 .contenedor-nav {
   background-color: white;
+  width: 100vw;
+  justify-content: space-between;
+  display: row;
+  align-items: center;
 }
 .navegacion {
   align-items: center;
+  line-height: 25px;
 }
 
 .navegacion-blog {
@@ -39,14 +56,20 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: row;
-
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
 }
 
 .contenido-titulo {
-  width: 200px;
-  height: 200px;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 25px;
+}
+.contenido-2 {
+  color: #ffffff;
+  font-size: 25px;
+}
+.contenido3 {
+  color: #ffffff;
+  font-size: 25px;
 }
