@@ -8,8 +8,7 @@ body {
   font-family: "Rubik, sans-serif";
 }
 
-.header {
-
+.header { 
   width: 100%;
   position: relative;
   top: 10px;
@@ -21,16 +20,23 @@ body {
   
 }
 .header-logo {
-  width: 150px;
-  padding
+  max-width: 150px;
+  transform: translateX( 100px);
+  padding-top: 10px;;
+  
 }
 
 .contenedor-nav {
-  background-color: white;
-  width: 100vw;
+  display: flex;
   justify-content: space-between;
-  display: row;
-  align-items: center;
+  padding-left: 20px;
+  padding-right: 100px;
+  padding: auto;
+  margin-bottom: 13px;
+  background-color: white;
+  width: 100vw; 
+  
+  
 }
 .navegacion {
   align-items: center;
@@ -38,6 +44,7 @@ body {
 }
 
 .navegacion-blog {
+  
   color: #4a4a4a;
   font-size: 16px;
   text-transform: uppercase;
@@ -64,12 +71,15 @@ body {
 .contenido-titulo {
   color: #ffffff;
   font-size: 25px;
+  font-weight: 700;
 }
 .contenido-2 {
   color: #ffffff;
   font-size: 25px;
+  font-weight: 700;
 }
 .contenido3 {
   color: #ffffff;
   font-size: 25px;
+  font-weight: 700;
 }
