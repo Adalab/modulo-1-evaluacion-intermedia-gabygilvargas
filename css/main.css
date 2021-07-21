@@ -1,8 +1,52 @@
 :root {
 }
-
-* {
-}
 html {
-  font-family: "Rubik", sans-serif;
+}
+
+body {
+  font-family: "Rubik, sans-serif";
+}
+
+.header {
+}
+.header-logo {
+  width: 150px;
+}
+
+.contenedor-nav {
+  background-color: white;
+}
+.navegacion {
+  align-items: center;
+}
+
+.navegacion-blog {
+  color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navegacion-contacto {
+  color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contenido {
+  background-color: #3cdbc0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+}
+
+.contenido-titulo {
+  width: 200px;
+  height: 200px;
+  color: #ffffff;
+  font-size: 40px;
 }
