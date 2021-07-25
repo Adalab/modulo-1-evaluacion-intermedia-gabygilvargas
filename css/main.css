@@ -1,85 +1,77 @@
-:root {
-}
-html {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: "Rubik, sans-serif";
+  font-family: "Rubik", sans-serif;
 }
 
-.header { 
-  width: 100%;
-  position: relative;
-  top: 10px;
-  right: 50px;
-  left: 0;
-  transform: translateY( 50);
-  
-  background-color:white);
-  
-}
-.header-logo {
-  max-width: 150px;
-  transform: translateX( 100px);
-  padding-top: 10px;;
-  
-}
-
-.contenedor-nav {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 100px;
-  padding: auto;
-  margin-bottom: 13px;
+.header {
   background-color: white;
-  width: 100vw; 
-  
-  
-}
-.navegacion {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  line-height: 25px;
+  text-align: center;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  border: solid 2px black;
+}
+
+.header-logo {
+  padding: 10px;
+}
+
+.contenedor-navegacion {
+  padding: 0 0 13px 0;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.menu-navegacion {
 }
 
 .navegacion-blog {
-  
-  color: #4a4a4a;
-  font-size: 16px;
-  text-transform: uppercase;
+  width: 155px;
+  padding-right: 10px;
   text-decoration: none;
 }
 
 .navegacion-contacto {
-  color: #4a4a4a;
-  font-size: 16px;
-  text-transform: uppercase;
+  padding-left: 10px;
   text-decoration: none;
 }
 
 .contenido {
   background-color: #3cdbc0;
+  color: white;
+  display: flex;
   width: 100vw;
   height: 100vh;
-  display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 .contenido-titulo {
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 30px;
+  width: 200px;
+
+  font-weight: 800;
 }
-.contenido-2 {
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 700;
-}
-.contenido3 {
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: 700;
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-logo {
+    padding-left: 30px;
+  }
+  .menu-navegacion {
+    padding-right: 30px;
+  }
 }
