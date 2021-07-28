@@ -43,6 +43,8 @@
 
 .main {
   background-color: #3cdbc0;
+  color: white;
+  display: flex;
   width: 100vw;
   height: 100vh;
   color: white;
